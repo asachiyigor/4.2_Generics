@@ -31,4 +31,8 @@ public class Ticket implements Comparable<Ticket> {
     public String getTo() {
         return to;
     }
+
+    public int getTime() {
+        return time;
+    }
 }
